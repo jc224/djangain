@@ -1,0 +1,5 @@
+{
+    "require": {
+        "informagenie/orange-sms": "^1.4"
+    }
+}

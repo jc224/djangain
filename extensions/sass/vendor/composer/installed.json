@@ -1,0 +1,170 @@
+{
+    "packages": [
+        {
+            "name": "artem-frolov/scssphp-compass",
+            "version": "0.1",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artem-frolov/scssphp-compass.git",
+                "reference": "ff482797277b69672e67d417a9ef8d599cdabb91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artem-frolov/scssphp-compass/zipball/ff482797277b69672e67d417a9ef8d599cdabb91",
+                "reference": "ff482797277b69672e67d417a9ef8d599cdabb91",
+                "shasum": ""
+            },
+            "require": {
+                "leafo/scssphp": "*"
+            },
+            "time": "2015-02-20T15:53:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "compass.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "Compass for scssphp",
+            "homepage": "http://leafo.net/scssphp/",
+            "support": {
+                "source": "https://github.com/artem-frolov/scssphp-compass/tree/master"
+            },
+            "install-path": "../artem-frolov/scssphp-compass"
+        },
+        {
+            "name": "artem-frolov/yii-sass",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artem-frolov/yii-sass.git",
+                "reference": "d1349ff290e0598c42d3b82384bc7248fd7e2c0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artem-frolov/yii-sass/zipball/d1349ff290e0598c42d3b82384bc7248fd7e2c0f",
+                "reference": "d1349ff290e0598c42d3b82384bc7248fd7e2c0f",
+                "shasum": ""
+            },
+            "require": {
+                "artem-frolov/scssphp-compass": "0.1.*",
+                "leafo/scssphp": "~0.6.7",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "*",
+                "phpunit/phpunit": "~4.2",
+                "squizlabs/php_codesniffer": "*",
+                "yiisoft/yii": "~1.1"
+            },
+            "time": "2017-11-09T17:57:49+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "SassHandler.php",
+                    "ExtendedScssc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Artem Frolov",
+                    "email": "artem@frolov.net",
+                    "homepage": "http://frolov.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sass (SCSS) and Compass support for the Yii framework",
+            "homepage": "https://github.com/artem-frolov/yii-sass",
+            "keywords": [
+                "compass",
+                "css",
+                "sass",
+                "scss",
+                "yii"
+            ],
+            "support": {
+                "issues": "https://github.com/artem-frolov/yii-sass/issues",
+                "source": "https://github.com/artem-frolov/yii-sass/tree/master"
+            },
+            "install-path": "../artem-frolov/yii-sass"
+        },
+        {
+            "name": "leafo/scssphp",
+            "version": "v0.6.7",
+            "version_normalized": "0.6.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "562213cd803e42ea53b0735554794c4022d8db89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/562213cd803e42ea53b0735554794c4022d8db89",
+                "reference": "562213cd803e42ea53b0735554794c4022d8db89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "kherge/box": "~2.5",
+                "phpunit/phpunit": "~3.7",
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "time": "2017-02-23T05:07:33+00:00",
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "support": {
+                "issues": "https://github.com/leafo/scssphp/issues",
+                "source": "https://github.com/leafo/scssphp/tree/v0.6.7"
+            },
+            "abandoned": "scssphp/scssphp",
+            "install-path": "../leafo/scssphp"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
